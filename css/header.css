@@ -1,0 +1,70 @@
+paleta{
+    background: #1b9b75; /*shadow*/
+    background: #5afaca; 
+    background: #8ffcff; 
+    background: #2AA18B; /*Fondo*/
+    background: #C995A2; /* viola*/
+}
+
+
+header {
+    background: rgb(0,64,82); /*tarawera*/
+    width: 100%;
+    height: 40px;
+    border: #5afaca 1px solid;
+    color: #8ffcff;
+}
+
+#menu>ul {
+    width: 80%;
+    float: right;
+    margin-right: 10%;
+    height: 40px;
+}
+
+#menu ul li {
+    width: 25%;
+    float: left;
+    height: 100%;
+    line-height: 35px;
+    text-align: center;
+    list-style: none;
+}
+#menu ul li:hover {
+    background: #00212B;
+    color: #5afaca;
+}
+ #menu ul li a {
+     display: inline-block;
+     color: #8ffcff;
+     text-decoration: none;
+     width:100%;
+     height: 100%;
+ }
+
+ #menu ul li a:hover {
+     color: #5afaca;
+     background: #00212B;
+ }
+
+#desplegable li {
+    display: none;
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+#desplegable li a {
+    width: 30px;
+}
+ 
+#desplegable li a :hover {
+    background: #5afaca;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,335 @@
+aside {
+
+    float:left;
+    
+}
+
+#trianguloladoizq{
+    border-radius: 5px, 5px, 5px, 5px;
+    margin-right:6%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+
+   .trianguloladoizq {
+    width: 0%; 
+    height: 0; 
+    box-shadow: 0px 0px 6px #ffce00, 0px 0px 12px #ffce00, 0px 0px 24px #ffce00;
+    border-left: 6px solid whitesmoke;
+    border-right: 8px solid whitesmoke;
+    border-top: 5px solid whitesmoke;
+    border-bottom: 4px solid whitesmoke;   /*investigando y descubriendo por mi cuenta animaciones
+    */
+    }
+
+   video {
+        height: auto;
+        display: block; 
+        border-radius: 25px 25px 25px 25px;
+        border: 3px solid black;
+        box-shadow: 2px -1px 5px black , 2px -1px 10px black, 2px -1px 20px black , 2px -1px 30px black, 2px -1px 35px black , 2px -1px 40px black,
+        2px -1px 45px #734210, 2px -1px 50px #734210;
+    }
+
+    .trianguloladodch {
+        width: 0; 
+        height: 0; 
+        box-shadow: 0px 0px 6px #ffce00, 0px 0px 12px #ffce00, 0px 0px 24px #ffce00;
+        border-right: 50px solid whitesmoke;
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+    }
+
+    #trianguloladodch {
+        /*border: 2px solid black;*/
+        margin-left: 7%;     
+        margin-right:6%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        width: 50%;
+        
+    }
+
+ @keyframes animationizq1 {
+
+    0% {
+        border-left: 50px solid #ffce00;
+        border-right: 8px solid #ffce00;
+        border-top: 5px solid #ffce00;
+        border-bottom: 4px solid #ffce00;
+    }
+
+    33% {
+        border-left: 50px solid #ffce00;
+        border-right: 8px solid #ffce00;
+        border-top: 5px solid #ffce00;
+        border-bottom: 4px solid #ffce00;
+    }
+    
+    34% {
+        border-left: 50px solid whitesmoke;
+        border-right: 8px solid whitesmoke;
+        border-top: 5px solid whitesmoke;
+        border-bottom: 4px solid whitesmoke;
+    }
+    
+    100% {
+        border-left: 50px solid whitesmoke;
+        border-right: 8px solid whitesmoke;
+        border-top: 5px solid whitesmoke;
+        border-bottom: 4px solid whitesmoke;
+    
+    }
+}
+
+    @keyframes animationizq2 {
+
+        0% {
+            border-left: 50px solid whitesmoke;
+            border-right: 8px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        }
+    
+        33% {
+            border-left: 50px solid whitesmoke;
+            border-right: 8px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        }
+        
+        34% {
+            border-left: 50px solid #ffce00;
+            border-right: 8px solid #ffce00;
+            border-top: 5px solid #ffce00;
+            border-bottom: 4px solid #ffce00;  
+        }
+
+        66% {
+            border-left: 50px solid #ffce00;
+            border-right: 8px solid #ffce00;
+            border-top: 5px solid #ffce00;
+            border-bottom: 4px solid #ffce00;
+        }
+        67% {
+            border-left: 50px solid whitesmoke;
+            border-right: 8px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke; 
+        }
+        
+        100% {
+            border-left: 50px solid whitesmoke;
+            border-right: 8px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        
+        }
+    }
+     @keyframes animationizq3 {
+
+        0% {
+            border-left: 50px solid whitesmoke;
+            border-right: 8px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        }
+    
+        33% {
+            border-left: 50px solid whitesmoke;
+            border-right: 8px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        }
+        
+        34% {
+            border-left: 50px solid whitesmoke;
+            border-right: 8px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;  
+        }
+
+        66% {
+            border-left: 50px solid whitesmoke;
+            border-right: 8px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        }
+        67% {
+            border-left: 50px solid #ffce00;
+            border-right: 8px solid #ffce00;
+            border-top: 5px solid #ffce00;
+            border-bottom: 4px solid #ffce00; 
+        }
+        
+        100% {
+            border-left: 50px solid #ffce00;
+            border-right: 8px solid #ffce00;
+            border-top: 5px solid #ffce00;
+            border-bottom: 4px solid #ffce00;
+        
+        }
+    }
+ 
+
+    #trianguloladoizq1 {
+        animation: animationizq1  1.5s linear infinite;
+    }
+
+    #trianguloladoizq2 {
+        animation: animationizq2  1.5s linear  infinite;
+    }
+    #trianguloladoizq3 {
+        animation: animationizq3  1.5s linear  infinite;
+    }
+    
+/*****Siguiente Lado*****/
+
+@keyframes animationdch1 {
+
+    0% {
+        border-left: 8px solid #ffce00;
+        border-right: 50px solid #ffce00;
+        border-top: 5px solid #ffce00;
+        border-bottom: 4px solid #ffce00;
+    }
+
+    33% {
+        border-left: 8px solid #ffce00;
+        border-right: 50px solid #ffce00;
+        border-top: 5px solid #ffce00;
+        border-bottom: 4px solid #ffce00;
+    }
+    
+    34% {
+        border-left: 8px solid whitesmoke;
+        border-right: 50px solid whitesmoke;
+        border-top: 5px solid whitesmoke;
+        border-bottom: 4px solid whitesmoke;
+    }
+    
+    100% {
+        border-left: 8px solid whitesmoke;
+        border-right: 50px solid whitesmoke;
+        border-top: 5px solid whitesmoke;
+        border-bottom: 4px solid whitesmoke;
+    
+    }
+}
+
+    @keyframes animationdch2 {
+
+        0% {
+            border-left: 8px solid whitesmoke;
+            border-right: 50px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        }
+    
+        33% {
+            border-left: 8px solid whitesmoke;
+            border-right: 50px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        }
+        
+        34% {
+            border-left: 8px solid #ffce00;
+            border-right: 50px solid #ffce00;
+            border-top: 5px solid #ffce00;
+            border-bottom: 4px solid #ffce00;  
+        }
+
+        66% {
+            border-left: 8px solid #ffce00;
+            border-right: 50px solid #ffce00;
+            border-top: 5px solid #ffce00;
+            border-bottom: 4px solid #ffce00;
+        }
+        67% {
+            border-left: 8px solid whitesmoke;
+            border-right: 50px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke; 
+        }
+        
+        100% {
+            border-left: 8px solid whitesmoke;
+            border-right: 50px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        
+        }
+    }
+     @keyframes animationdch3 {
+
+        0% {
+            border-left: 8px solid whitesmoke;
+            border-right: 50px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        }
+    
+        33% {
+            border-left: 8px solid whitesmoke;
+            border-right: 50px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        }
+        
+        34% {
+            border-left: 8px solid whitesmoke;
+            border-right: 50px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;  
+        }
+
+        66% {
+            border-left: 8px solid whitesmoke;
+            border-right: 50px solid whitesmoke;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 4px solid whitesmoke;
+        }
+        67% {
+            border-left: 8px solid #ffce00;
+            border-right: 50px solid #ffce00;
+            border-top: 5px solid #ffce00;
+            border-bottom: 4px solid #ffce00; 
+        }
+        
+        100% {
+            border-left: 8px solid #ffce00;
+            border-right: 50px solid #ffce00;
+            border-top: 5px solid #ffce00;
+            border-bottom: 4px solid #ffce00;
+        
+        }
+    }
+ 
+
+    #trianguloladoizq1 {
+        animation: animationizq1  1.0s linear infinite;
+    }
+
+    #trianguloladoizq2 {
+        animation: animationizq2  1.0s linear  infinite;
+    }
+    #trianguloladoizq3 {
+        animation: animationizq3  1.0s linear  infinite;
+    }
+
+
+    #trianguloladodch4 {
+        animation: animationdch1  1.0s linear infinite reverse;
+    }
+
+    #trianguloladodch5 {
+        animation: animationdch2  1.0s linear  infinite reverse;
+    }
+    #trianguloladodch6 {
+        animation: animationdch3  1.0s linear  infinite reverse;
+    }
