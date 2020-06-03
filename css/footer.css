@@ -1,0 +1,59 @@
+paleta{
+    background: #1b9b75; /*shadow*/
+    background: #5afaca; 
+    background: #8ffcff; 
+    background: #2AA18B; /*Fondo*/
+    background: #C995A2; /* viola*/
+}
+
+footer {
+    height: 100px;
+    background: #00212B;
+    float:left;
+    width: 100%;
+    text-align: center;
+    color:#5afaca;
+}
+
+footer a img{
+    display:inline-block;
+    height: 50px;
+}
+
+#git{
+    width:20%;
+}
+
+footer span{
+    display:block;
+    margin-top:5%;
+}
+
+#social {
+    width: 20%;
+    float:right;
+    margin-top:1.5%;
+}
+
+footer li {
+    width: 23%;
+    display:inline-block;
+    list-style: none;
+}
+
+footer li a img{ 
+    width: auto;
+    height:50px;
+
+}
+
+footer img:hover {
+    box-shadow: 0px 0px 6px #5afaca, 0px 0px 12px #5afaca, 0px 0px 14px #5afaca;
+}
+
+#git {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 40%
+}

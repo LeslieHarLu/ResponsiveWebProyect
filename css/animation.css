@@ -1,23 +1,30 @@
-aside {
+paleta{
+    background: #1b9b75; /*shadow*/
+    background: #5afaca; 
+    background: #8ffcff; 
+    background: #2AA18B; /*Fondo*/
+    background: #C995A2; /* viola*/
+}
 
-    float:left;
-    
+ #animacion {
+    margin-left: 42.5%;
+    margin-top: 1%;
 }
 
 #trianguloladoizq{
     border-radius: 5px, 5px, 5px, 5px;
-    margin-right:6%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    width: 50%;
+    width: 10%;
+    float: left;
 
 }
 
    .trianguloladoizq {
     width: 0%; 
     height: 0; 
-    box-shadow: 0px 0px 6px #ffce00, 0px 0px 12px #ffce00, 0px 0px 24px #ffce00;
+    box-shadow: 0px 0px 6px #5afaca, 0px 0px 12px #5afaca, 0px 0px 24px #5afaca;
     border-left: 6px solid whitesmoke;
     border-right: 8px solid whitesmoke;
     border-top: 5px solid whitesmoke;
@@ -25,19 +32,10 @@ aside {
     */
     }
 
-   video {
-        height: auto;
-        display: block; 
-        border-radius: 25px 25px 25px 25px;
-        border: 3px solid black;
-        box-shadow: 2px -1px 5px black , 2px -1px 10px black, 2px -1px 20px black , 2px -1px 30px black, 2px -1px 35px black , 2px -1px 40px black,
-        2px -1px 45px #734210, 2px -1px 50px #734210;
-    }
-
-    .trianguloladodch {
+       .trianguloladodch {
         width: 0; 
         height: 0; 
-        box-shadow: 0px 0px 6px #ffce00, 0px 0px 12px #ffce00, 0px 0px 24px #ffce00;
+        box-shadow: 0px 0px 6px #5afaca, 0px 0px 12px #5afaca, 0px 0px 24px #5afaca;
         border-right: 50px solid whitesmoke;
         border-top: 25px solid transparent;
         border-bottom: 25px solid transparent;
@@ -50,24 +48,25 @@ aside {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-evenly;
-        width: 50%;
+        width: 10%;
+        float: left;
         
     }
 
  @keyframes animationizq1 {
 
     0% {
-        border-left: 50px solid #ffce00;
-        border-right: 8px solid #ffce00;
-        border-top: 5px solid #ffce00;
-        border-bottom: 4px solid #ffce00;
+        border-left: 50px solid #5afaca;
+        border-right: 8px solid #5afaca;
+        border-top: 5px solid #5afaca;
+        border-bottom: 4px solid #5afaca;
     }
 
     33% {
-        border-left: 50px solid #ffce00;
-        border-right: 8px solid #ffce00;
-        border-top: 5px solid #ffce00;
-        border-bottom: 4px solid #ffce00;
+        border-left: 50px solid #5afaca;
+        border-right: 8px solid #5afaca;
+        border-top: 5px solid #5afaca;
+        border-bottom: 4px solid #5afaca;
     }
     
     34% {
@@ -103,17 +102,17 @@ aside {
         }
         
         34% {
-            border-left: 50px solid #ffce00;
-            border-right: 8px solid #ffce00;
-            border-top: 5px solid #ffce00;
-            border-bottom: 4px solid #ffce00;  
+            border-left: 50px solid #5afaca;
+            border-right: 8px solid #5afaca;
+            border-top: 5px solid #5afaca;
+            border-bottom: 4px solid #5afaca;  
         }
 
         66% {
-            border-left: 50px solid #ffce00;
-            border-right: 8px solid #ffce00;
-            border-top: 5px solid #ffce00;
-            border-bottom: 4px solid #ffce00;
+            border-left: 50px solid #5afaca;
+            border-right: 8px solid #5afaca;
+            border-top: 5px solid #5afaca;
+            border-bottom: 4px solid #5afaca;
         }
         67% {
             border-left: 50px solid whitesmoke;
@@ -160,17 +159,17 @@ aside {
             border-bottom: 4px solid whitesmoke;
         }
         67% {
-            border-left: 50px solid #ffce00;
-            border-right: 8px solid #ffce00;
-            border-top: 5px solid #ffce00;
-            border-bottom: 4px solid #ffce00; 
+            border-left: 50px solid #5afaca;
+            border-right: 8px solid #5afaca;
+            border-top: 5px solid #5afaca;
+            border-bottom: 4px solid #5afaca; 
         }
         
         100% {
-            border-left: 50px solid #ffce00;
-            border-right: 8px solid #ffce00;
-            border-top: 5px solid #ffce00;
-            border-bottom: 4px solid #ffce00;
+            border-left: 50px solid #5afaca;
+            border-right: 8px solid #5afaca;
+            border-top: 5px solid #5afaca;
+            border-bottom: 4px solid #5afaca;
         
         }
     }
@@ -192,17 +191,17 @@ aside {
 @keyframes animationdch1 {
 
     0% {
-        border-left: 8px solid #ffce00;
-        border-right: 50px solid #ffce00;
-        border-top: 5px solid #ffce00;
-        border-bottom: 4px solid #ffce00;
+        border-left: 8px solid #5afaca;
+        border-right: 50px solid #5afaca;
+        border-top: 5px solid #5afaca;
+        border-bottom: 4px solid #5afaca;
     }
 
     33% {
-        border-left: 8px solid #ffce00;
-        border-right: 50px solid #ffce00;
-        border-top: 5px solid #ffce00;
-        border-bottom: 4px solid #ffce00;
+        border-left: 8px solid #5afaca;
+        border-right: 50px solid #5afaca;
+        border-top: 5px solid #5afaca;
+        border-bottom: 4px solid #5afaca;
     }
     
     34% {
@@ -238,17 +237,17 @@ aside {
         }
         
         34% {
-            border-left: 8px solid #ffce00;
-            border-right: 50px solid #ffce00;
-            border-top: 5px solid #ffce00;
-            border-bottom: 4px solid #ffce00;  
+            border-left: 8px solid #5afaca;
+            border-right: 50px solid #5afaca;
+            border-top: 5px solid #5afaca;
+            border-bottom: 4px solid #5afaca;  
         }
 
         66% {
-            border-left: 8px solid #ffce00;
-            border-right: 50px solid #ffce00;
-            border-top: 5px solid #ffce00;
-            border-bottom: 4px solid #ffce00;
+            border-left: 8px solid #5afaca;
+            border-right: 50px solid #5afaca;
+            border-top: 5px solid #5afaca;
+            border-bottom: 4px solid #5afaca;
         }
         67% {
             border-left: 8px solid whitesmoke;
@@ -295,17 +294,17 @@ aside {
             border-bottom: 4px solid whitesmoke;
         }
         67% {
-            border-left: 8px solid #ffce00;
-            border-right: 50px solid #ffce00;
-            border-top: 5px solid #ffce00;
-            border-bottom: 4px solid #ffce00; 
+            border-left: 8px solid #5afaca;
+            border-right: 50px solid #5afaca;
+            border-top: 5px solid #5afaca;
+            border-bottom: 4px solid #5afaca; 
         }
         
         100% {
-            border-left: 8px solid #ffce00;
-            border-right: 50px solid #ffce00;
-            border-top: 5px solid #ffce00;
-            border-bottom: 4px solid #ffce00;
+            border-left: 8px solid #5afaca;
+            border-right: 50px solid #5afaca;
+            border-top: 5px solid #5afaca;
+            border-bottom: 4px solid #5afaca;
         
         }
     }
