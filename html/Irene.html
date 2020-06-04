@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Driver</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/personajes.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/media_queries.css">
+
 </head>
+
 <body>
-    <header>
-        <nav id="social">
-            <ul> <!--Esta es la lista del menu de navegacion-->
-                <li><a href="https://www.facebook.com/"><img src="../images/icon_facebook.png" alt="facebook"></a></li>
-                <li><a href="https://www.instagram.com/"><img src="../images/icon_instagram.png" alt="instagram"></a></li>
-                <li><a href="https://twitter.com/login?lang=es"><img src="../images/icon_twitter.jpg" alt="twitter"></a></li>
-                <li><a href="https://www.youtube.com/"><img src="../images/icon_youtube.jpg" alt="youtube"></a></li>
+  <header>
+    <nav id="menu">
+      <ul>
+        <!--Esta es la lista del menu de navegacion personajes-->
+        <li><a href="../index.html">Inicio</a></li>
+        <li id="personajes">Personajes
+          <ul id="desplegable">
+            <!--Es del desplegable o-->
+            <li><a href="driver.html">Driver</a></li>
+            <li><a href="bernie Rose.html">Bernie Rose</a></li>
+            <li><a href="irene.html">Irene</a></li>
+            <li><a href="shannon.html">Shannon</a></li>
           </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="personajes.html">Personajes</a>
-                  <ul>
-                      <li><a href="driver.html">Driver</a></li>
-                      <li><a href="Bernie Rose.html">Bernie Rose</a></li>
-                      <li><a href="Irene.html">Irene</a></li>
-                      <li><a href="Shannon.html">Shannon</a></li>
-                  </li>
-                  </ul>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="contactanos.html">Contáctanos</a></li>
-            </ul>
-        </nav>
-    </header>
+        </li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contactanos.html">Contáctanos</a></li>
+      </ul>
+    </nav>
+
+
+  </header>
   <main>
-      <section>
+
+    <h1>Drive</h1>
+    <!--Edición: original-->
+    <section>
         <article>
             <img src="../images/carey_Mulligan.jpg" alt="Madre soltera">
             <p>
@@ -57,9 +59,22 @@
       </section>
   </main>
   <footer>
-    &copy;2020.Repositorio del Proyecto
-    <a href="https://github.com/LyeBlueCode/ResponsiveWebProyect.git">
-    <img src="../images/icon_github.png" alt="migithubproyecto"></a>
-  </footer>  
+    <div id="git">
+      <a href="https://github.com/LyeBlueCode/ResponsiveWebProyect.git">
+
+        <img src="images/icon_github.png" alt="migithubproyecto"></a>
+      <span>&copy;2020.Repositorio del Proyecto</span>
+    </div>
+
+  <nav id="social">
+      <ul>
+        <li><a href="https://www.facebook.com/"><img src="./images/icon_facebook.png" alt="facebook"></a></li>
+        <li><a href="https://www.instagram.com/"><img src="./images/icon_instagram.png" alt="instagram"></a></li>
+        <li><a href="https://twitter.com/login?lang=es"><img src="./images/icon_twitter.png" alt="twitter"></a></li>
+        <li><a href="https://www.youtube.com/"><img src="./images/icon_youtube.png" alt="youtube"></a></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
+
 </html>

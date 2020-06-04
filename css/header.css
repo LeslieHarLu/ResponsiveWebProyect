@@ -2,7 +2,7 @@ paleta{
     background: #1b9b75; /*shadow*/
     background: #5afaca; 
     background: #8ffcff; 
-    background: #2AA18B; /*Fondo*/
+    background: #2AA18B; /**/
     background: #C995A2; /* viola*/
 }
 
@@ -22,7 +22,7 @@ header {
     height: 38px;
 }
 
-#menu ul li {
+#menu>ul>li {
     width: 25%;
     float: left;
     height: 100%;
@@ -30,11 +30,12 @@ header {
     text-align: center;
     list-style: none;
 }
-#menu ul li:hover {
+
+#menu>ul>li:hover {
     background: #00212B;
     color: #5afaca;
 }
- #menu ul li a {
+ #menu>ul li a {
      display: inline-block;
      color: #8ffcff;
      text-decoration: none;
@@ -42,24 +43,27 @@ header {
      height: 100%;
  }
 
- #menu ul li a:hover {
+ #menu>ul>li>a:hover {
      color: #5afaca;
      background: #00212B;
  }
 
-#desplegable li {
+#personajes>ul { /*Esto es para que oculte el desplegable*/
     display: none;
-    width: 25%;
-    float: left;
     list-style: none;
 }
-
-#desplegable li a {
-    width: 30px;
+#personajes:hover>ul { /*Este para que se muestre*/
+    display: block;
+    z-index: 2;
 }
- 
-#desplegable li a :hover {
-    background: #5afaca;
+
+#personajes:hover>ul>li{
+    z-index:5;
+}
+
+#desplegable li a:hover { /*los enlaces del desplegable*/
+    color: #5afaca;
+
 }
 
 
