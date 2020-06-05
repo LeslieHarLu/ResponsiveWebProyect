@@ -1,64 +1,44 @@
-paleta{
-    background: #1b9b75; /*shadow*/
-    background: #5afaca; 
-    background: #8ffcff; 
-    background: #2AA18B; /*Fondo*/
-    background: #C995A2; /* viola*/
-}
-
 footer {
-    height: 100px;
-    background: #030512;
-    float:left;
-    width: 100%;
-    text-align: center;
-    color:#5afaca;
+	background: #030512;
+	color: #5afaca;
+	float: left;
+	height: 100px;
+	text-align: center;
+	width: 100%;
 }
-
-footer a img{
-    display:inline-block;
-    height: 50px;
+footer a img {
+	display: inline-block;
+	height: 50px;
 }
- 
-#git{
-    width:20%;
+footer span {
+	display: block;
+	margin-top: 5%;
 }
-
-footer span{
-    display:block;
-    margin-top:5%;
-}
-
-#social {
-    width: 20%;
-    float:right;
-    margin-top:1.5%;
-}
-
 footer li {
-    width: 23%;
-    display:inline-block;
-    list-style: none;
+	display: inline-block;
+	list-style: none;
+	width: 23%;
 }
-
-footer li a img{ 
-    width: auto;
-    height:50px;
+footer li a img {
+	height: 50px;
+	width: auto;
 }
-
 footer img:hover {
-    box-shadow: 0px 0px 6px #5afaca, 0px 0px 12px #5afaca, 0px 0px 14px #5afaca;
-    border-radius: 50%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 6px #5afaca, 0px 0px 12px #5afaca, 0px 0px 14px #5afaca;
 }
-
+#social {
+	float: right;
+	margin-top: 1.5%;
+	width: 20%;
+}
 #git {
-    width: 20%;
-    height: auto;
-    float: left;
-    margin-left: 40%
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-left: 40%;
 }
- 
 #git img {
-    position: relative;
-    top: 12px;
+	position: relative;
+	top: 12px;
 }

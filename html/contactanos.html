@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans&display=swap" rel="stylesheet">    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/contactanos.css">
+    <link rel="stylesheet" href="../fonts/style.css">
 </head>
 
 <body>
     <header>
-       <nav id="menu">
+        <nav id="menu">
             <ul>
                 <!--Esta es la lista del menu de navegacion personajes-->
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="contactanos.html">Contactanos</a></li>
-                <li id="personajes">Personajes
+                <li><a href="../index.html"><span class="icon-home"></span> Inicio</a></li>
+                <li><a href="media.html"><span class="icon-film"></span> Media</a></li>
+        <li><a href="contactanos.html"><span class="icon-earth"></span> Contactanos</a></li>
+        <li id="personajes"><span class="icon-users"></span> Personajes
                     <ul id="desplegable">
                         <!--Es del desplegable o-->
                         <li><a href="driver.html">Driver</a></li>
@@ -38,59 +40,66 @@
             <article>
                 <h4>Formulario de Contacto</h4>
                 <form action="contactar.php" method="POST">
-                  <fieldset id="superior">
-                    <legend>Datos Personales</legend>
-      
-                      <div>
-                          <label for="name">Nombre</label>
-                          <input type="text" id="name" name="nombre" placeholder="Introduce tu nombre..." value=""/>
-                      </div>
-                      <div>   
-                          <label for="apellidos">Apellidos</label>
-                          <input type="text" id="name" name="nombre" placeholder="Introduce tu apellidos..." value=""/>
-                      </div>
-                      <div>
-                          Sexo:
-                          <label for="hombre">Hombre</label>
-                          <input type="radio" id="hombre" name="sexo" value="hombre" checked="checked"/>
-                          <label for="mujer">Mujer</label>
-                          <input type="radio" id="mujer" name="sexo" value="mujer"/>
-                      </div>
-                      <div>
-                          <label for="pais">País</label>
-                          <select name="pais" id="pais">
-                              <option value="" selected="selected">- Selecciona -</option>
-                              <option value="es">España</option>
-                              <option value="us">Estados Unidos</option>
-                              <option value="fr">Francia</option>
-                              <option value="il">Irlanda</option>
-                              <option value="al">Alemania</option>
-                              <option value="uk">Reino Unido</option>
-                              <option value="it">Italia</option>
-                              <option value="otro">Otro</option>
-                          </select>
-                      </div>
-                      <div>
-                          <label for="foto">Adjunte una foto...</label>
-                          <input type="file" id="foto" name="foto">
-                      </div>
-                  </fieldset>
-                  <fieldset id="inferior">
-                      <legend>Otros Datos</legend>
-                          <div>
-                              <div><label for="texto">Mensaje</label></div>
-                              <textarea name="texto" id="texto" cols="60" rows="10" placeholder="Introduzca un mensaje"></textarea>
-                          </div>
-                  </fieldset>
-                  <label><input type="checkbox" id="condiciones" value=""> He leído las condiciones...</label>
-                  <div id= "botones">
-                      <input type="reset" name="limpiar" value="Limpiar"/>
-                      <input type="submit" name="enviar" value="Enviar"/>
-                  </div>
-               </form>
+                    <fieldset id="superior">
+                        <legend>Datos Personales</legend>
+
+                        <div>
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="nombre" placeholder="Introduce tu nombre..." value="" />
+                        </div>
+                        <div>
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" id="name" name="nombre" placeholder="Introduce tu apellidos..."
+                                value="" />
+                        </div>
+                        <div>
+                            Sexo:
+                            <label for="hombre">Hombre</label>
+                            <input type="radio" id="hombre" name="sexo" value="hombre" checked="checked" />
+                            <label for="mujer">Mujer</label>
+                            <input type="radio" id="mujer" name="sexo" value="mujer" />
+                        </div>
+                        <div>
+                            <label for="pais">País</label>
+                            <select name="pais" id="pais">
+                                <option value="" selected="selected">- Selecciona -</option>
+                                <option value="es">España</option>
+                                <option value="us">Estados Unidos</option>
+                                <option value="fr">Francia</option>
+                                <option value="il">Irlanda</option>
+                                <option value="al">Alemania</option>
+                                <option value="uk">Reino Unido</option>
+                                <option value="it">Italia</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="foto">Adjunte una foto...</label>
+                            <input type="file" id="foto" name="foto">
+                        </div>
+                    </fieldset>
+                    <fieldset id="inferior">
+                        <legend>Otros Datos</legend>
+                        <div>
+                            <div><label for="texto">Mensaje</label></div>
+                            <textarea name="texto" id="texto" cols="60" rows="10"
+                                placeholder="Introduzca un mensaje"></textarea>
+                        </div>
+                    </fieldset>
+                    <label><input type="checkbox" id="condiciones" value=""> He leído las condiciones...</label>
+                    <div id="botones">
+                        <input type="reset" name="limpiar" value="Limpiar" />
+                        <input type="submit" name="enviar" value="Enviar" />
+                    </div>
+                </form>
             </article>
-        </section> 
+            
+        
+        </section>
+
+        
     </main>
+    
     <footer>
         <div id="git">
             <a href="https://github.com/LyeBlueCode/ResponsiveWebProyect.git">

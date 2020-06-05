@@ -1,124 +1,104 @@
+article {
+	align-content: center;
+	border: 2px solid #5afaca;
+	box-shadow: 2px -1px 5px #5afaca , 2px -1px 10px #5afaca;
+	color: white;
+	justify-content: center;
+	margin-left: 20%;
+	padding: 1%;
+	width: 60%;
+}
+
 body {
-    background: rgb(0,43,54);
-}
-
-h1 {
-    font-weight: bold;
-    font-size: 100px;
-    color: #FFC800;
-    text-align: center;
-    text-shadow: 6px 2px 5px #5afaca;
-   }
-
-   /***/
-
-   h4 {
-       font-size: 30px;
-       margin-bottom: 2%;
-   }
-
-   article {
-    box-shadow: 2px -1px 5px #5afaca , 2px -1px 10px #5afaca;
-    border:2px solid #5afaca; 
-    justify-content: center;
-    align-content: center; /*centrar en el eje y*/
-    width: 60%;
-    margin-left: 20%;
-    color:white;
-    padding: 1%;
-}
-legend {
-    font-size: 25px;
-}
-
-main {
-    margin-bottom: 3%;
-}
-
-section{
-    display: flex;
-}
-
-
-div#marco/*estilo general del marco*/
- {
-  background: transparent;
-  font-style: normal;
-  line-height: normal;
-  font-weight: bold; 
-  color: #5afaca; 
-  text-decoration: none;
-  border-radius: 12px;
-  height: 52%;
-  overflow: hidden;
-  position: absolute;
-  top: 10em;
-  width: 80%;
-  right: 30%;
-  left: 1%;
-  padding: 2%;
-  
-}
-
- fieldset {
- border: #5afaca  1px solid;
- color:white;
- padding: 4%;
- font-family: 'Lora', serif;
- }
- 
- #superior div {
-     margin-top: 3%;
- }
-
-input {
-    color: white;
-    background: whitesmoke;
-    box-shadow:  0px 0px 6px #5afaca, 0px 0px 12px #5afaca;
-    font-size: 17px;
-    font-weight: bold;
-
+	background: rgb(0,43,54);
 }
 
 #botones {
-float: right;
-padding: 2%;
-margin-top: 2%;
-width: 75%;
+	float: right;
+	margin-top: 2%;
+	padding: 2%;
+	width: 75%;
 }
- #botones input {
-    height: 30px;; 
-    width: 40%;
-    color: white;
-    background: linear-gradient(rgb(0,43,54),#1b9b75,#2AA18B,#5afaca);
-    box-shadow:  0px 0px 6px #5afaca, 0px 0px 12px #5afaca;
-    font-size: 20px;
-    display: inline-block;
-    
- }
-
- #pais, #foto {
-    color: grey;
-    font-size: 17px;
-    font-weight: bold;
-    box-shadow:  0px 0px 6px #5afaca, 0px 0px 12px #5afaca;
- }
-
- #superior label {
-     margin-right: 3%;
-     font-size: 20px;
- }
-
-
+#botones input {
+	background: linear-gradient(rgb(0,43,54),#1b9b75,#2AA18B,#5afaca);
+	box-shadow: 0px 0px 6px #5afaca, 0px 0px 12px #5afaca;
+	color: white;
+	display: inline-block;
+	font-size: 20px;
+	height: 30px;
+	width: 40%;
+}
+div#marco/*estilo general del marco*/ {
+	background: transparent;
+	border-radius: 12px;
+	color: #5afaca;
+	font-style: normal;
+	font-weight: bold;
+	height: 52%;
+	left: 1%;
+	line-height: normal;
+	overflow: hidden;
+	padding: 2%;
+	position: absolute;
+	right: 30%;
+	text-decoration: none;
+	top: 10em;
+	width: 80%;
+}
 div div {
-  height: 100%; 
-  overflow: auto; 
-  position: relative;
-  width: 50%; 
+	height: 100%;
+	overflow: auto;
+	position: relative;
+	width: 50%;
 }
-
-
+fieldset {
+	border: #5afaca  1px solid;
+	color: white;
+	font-family: 'Lora', serif;
+	padding: 4%;
+}
+h1 {
+	color: #FFC800;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 6px 2px 5px #5afaca;
+}
+h4 {
+	font-size: 30px;
+	margin-bottom: 2%;
+}
+input {
+	background: whitesmoke;
+	box-shadow: 0px 0px 6px #5afaca, 0px 0px 12px #5afaca;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+}
+legend {
+	font-size: 25px;
+}
+main {
+	margin-bottom: 3%;
+}
 #marco {
-border: 5px transparent;/* Contenedor donde se visualiza todo estilo tranparente en su borde*/
-
+	border: 5px transparent;
 }
+#pais, #foto {
+	box-shadow: 0px 0px 6px #5afaca, 0px 0px 12px #5afaca;
+	color: grey;
+	font-size: 17px;
+	font-weight: bold;
+}
+section {
+	display: flex;
+}
+#superior div {
+	margin-top: 3%;
+}
+#superior label {
+	font-size: 20px;
+	margin-right: 3%;
+}
+
+
