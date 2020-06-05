@@ -3,10 +3,122 @@ body {
 }
 
 h1 {
-    font-family: Mistral;
     font-weight: bold;
     font-size: 100px;
-    color: whitesmoke;
+    color: #FFC800;
     text-align: center;
     text-shadow: 6px 2px 5px #5afaca;
    }
+
+   /***/
+
+   h4 {
+       font-size: 30px;
+       margin-bottom: 2%;
+   }
+
+   article {
+    box-shadow: 2px -1px 5px #5afaca , 2px -1px 10px #5afaca;
+    border:2px solid #5afaca; 
+    justify-content: center;
+    align-content: center; /*centrar en el eje y*/
+    width: 60%;
+    margin-left: 20%;
+    color:white;
+    padding: 1%;
+}
+legend {
+    font-size: 25px;
+}
+
+main {
+    margin-bottom: 3%;
+}
+
+section{
+    display: flex;
+}
+
+
+div#marco/*estilo general del marco*/
+ {
+  background: transparent;
+  font-style: normal;
+  line-height: normal;
+  font-weight: bold; 
+  color: #5afaca; 
+  text-decoration: none;
+  border-radius: 12px;
+  height: 52%;
+  overflow: hidden;
+  position: absolute;
+  top: 10em;
+  width: 80%;
+  right: 30%;
+  left: 1%;
+  padding: 2%;
+  
+}
+
+ fieldset {
+ border: #5afaca  1px solid;
+ color:white;
+ padding: 4%;
+ font-family: 'Lora', serif;
+ }
+ 
+ #superior div {
+     margin-top: 3%;
+ }
+
+input {
+    color: white;
+    background: whitesmoke;
+    box-shadow:  0px 0px 6px #5afaca, 0px 0px 12px #5afaca;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+#botones {
+float: right;
+padding: 2%;
+margin-top: 2%;
+width: 75%;
+}
+ #botones input {
+    height: 30px;; 
+    width: 40%;
+    color: white;
+    background: linear-gradient(rgb(0,43,54),#1b9b75,#2AA18B,#5afaca);
+    box-shadow:  0px 0px 6px #5afaca, 0px 0px 12px #5afaca;
+    font-size: 20px;
+    display: inline-block;
+    
+ }
+
+ #pais, #foto {
+    color: grey;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow:  0px 0px 6px #5afaca, 0px 0px 12px #5afaca;
+ }
+
+ #superior label {
+     margin-right: 3%;
+     font-size: 20px;
+ }
+
+
+div div {
+  height: 100%; 
+  overflow: auto; 
+  position: relative;
+  width: 50%; 
+}
+
+
+#marco {
+border: 5px transparent;/* Contenedor donde se visualiza todo estilo tranparente en su borde*/
+
+}
