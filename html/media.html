@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,33 +10,29 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/media.css">
 </head>
+
 <body>
     <header>
-        <nav id="social">
-            <ul> <!--Esta es la lista del menu de navegacion-->
-                <li><a href="https://www.facebook.com/"><img src="../images/icon_facebook.png" alt="facebook"></a></li>
-                <li><a href="https://www.instagram.com/"><img src="../images/icon_instagram.png" alt="instagram"></a></li>
-                <li><a href="https://twitter.com/login?lang=es"><img src="../images/icon_twitter.jpg" alt="twitter"></a></li>
-                <li><a href="https://www.youtube.com/"><img src="../images/icon_youtube.jpg" alt="youtube"></a></li>
-          </ul>
-        </nav>
-        <nav>
+        <nav id="menu">
             <ul>
+                <!--Esta es la lista del menu de navegacion personajes-->
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="personajes.html">Personajes</a>
-                  <ul>
-                      <li><a href="driver.html">Driver</a></li>
-                      <li><a href="Bernie Rose.html">Bernie Rose</a></li>
-                      <li><a href="Irene.html">Irene</a></li>
-                      <li><a href="Shannon.html">Shannon</a></li>
-                  </li>
-                  </ul>
                 <li><a href="media.html">Media</a></li>
-                <li><a href="contactanos.html">Contáctanos</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
+                <li id="personajes">Personajes
+                    <ul id="desplegable">
+                        <!--Es del desplegable o-->
+                        <li><a href="driver.html">Driver</a></li>
+                        <li><a href="bernierose.html">Bernie Rose</a></li>
+                        <li><a href="irene.html">Irene</a></li>
+                        <li><a href="shannon.html">Shannon</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
+        <h1>Drive</h1>
         <section>
             <article>
                 <video poster="../images/escena1.jpg" controls>
@@ -43,42 +40,114 @@
                 </video>
             </article>
         </section>
-        <section>
+        <section id="soundtrack">
             <article>
+                <h2>Soundtrack</h2>
                 <ul>
                     <li>
-                        Nightcall
-                        Written by Vincent Belorgey
-                        Performed by Vincent Belorgey(as Kavinsky)
-                        <a href="https://www.youtube.com/watch?v=MV_3Dpw-BRY">Nightcall</a>
+                        <div class="box1">
+                            <div class="box2">
+                                <div class="box3">
+                                    <div class="box4"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <p>
+                            Nightcall
+                            Written by Vincent Belorgey
+                            Performed by Vincent Belorgey(as Kavinsky)
+                        </p>
+                        <audio controls>
+                            <source src="../media/Kavinsky - Nightcall .mp3" type="audio/mpeg">
+                        </audio>
                     </li>
                     <li>
-                        A Real Hero
-                        Written by David Grellier,
-                        Austin Garrick, Bronwyn Griffin
-                        Performed by College (f. Electric Youth)
-                        <a href="https://www.youtube.com/watch?v=-DSVDcw6iW8">Real Hero</a>
+
+                        <div class="box1">
+                            <div class="box2">
+                                <div class="box3">
+                                    <div class="box4"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <p>
+                            A Real Hero
+                            Written by David Grellier,
+                            Austin Garrick, Bronwyn Griffin
+                            Performed by College (f. Electric Youth)
+                        </p>
+                        <audio controls>
+                            <source src="../media/College & Electric Youth.mp3" type="audio/mpeg">
+                        </audio>
                     </li>
                     <li>
-                        Under Your Spell
-                        Written by Johnny Jewel
-                        Performed by Desire
-                        <a href="https://www.youtube.com/watch?v=WflAReA2cqs">Under Your Spell</a>
-                    </li>
+                        <div class="box1">
+                            <div class="box2">
+                                <div class="box3">
+                                    <div class="box4"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <p>
+                            Under Your Spell
+                            Written by Johnny Jewel
+                            Performed by Desire
+                        </p>
+                        <audio controls>
+                            <source src="../media/Under Your Spell - Desire.mp3" type="audio/mpeg">
+                        </audio>
+                     </li>
                     <li>
-                        Tick of the Clock
-                        Written by Johnny Jewel
-                        Performed by Chromatics(as The Chromatics)
-                        <a href="https://www.youtube.com/watch?v=vWD7k6TrJ-g"></a>
+                        <div class="box1">
+                            <div class="box2">
+                                <div class="box3">
+                                    <div class="box4"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <p>
+                            Tick of the Clock
+                            Written by Johnny Jewel
+                            Performed by Chromatics(as The Chromatics)
+                        </p>
+                        <audio controls>
+                            <source src="../media/Chromatics.mp3" type="audio/mpeg">
+                        </audio>
                     </li>
                 </ul>
             </article>
         </section>
     </main>
-     <footer>
-        &copy;2020.Repositorio del Proyecto
-        <a href="https://github.com/LyeBlueCode/ResponsiveWebProyect.git">
-        <img src="images/icon_github.png" alt="migithubproyecto"></a>
-      </footer>
+    <footer>
+        <div id="git">
+            <a href="https://github.com/LyeBlueCode/ResponsiveWebProyect.git">
+
+                <img src="../images/icon_github.png" alt="migithubproyecto"></a>
+            <span>&copy;2020.Repositorio del Proyecto</span>
+        </div>
+        <nav id="social">
+            <ul>
+                <li><a href="https://www.facebook.com/"><img src="../images/icon_facebook.png" alt="facebook"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="../images/icon_instagram.png" alt="instagram"></a>
+                </li>
+                <li><a href="https://twitter.com/login?lang=es"><img src="../images/icon_twitter.png" alt="twitter"></a>
+                </li>
+                <li><a href="https://www.youtube.com/"><img src="../images/icon_youtube.png" alt="youtube"></a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
+
 </html>

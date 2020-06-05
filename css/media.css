@@ -1,0 +1,112 @@
+body {
+	background: rgb(0,43,54);
+}
+h1 {
+	color: #FFC800;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 6px 2px 5px #5afaca;
+}
+article>h2 {
+    font-size: 60px;
+    color: white;
+	font-weight: bold;
+	text-align: center;
+    text-shadow: 6px 2px 3px #5afaca;
+    margin-bottom:2%;
+    
+}
+#soundtrack {
+	float: left;
+	margin-bottom: 2%;
+	margin-left: 3%;
+	width: 30%;
+}
+#soundtrack li {
+    width: 100%;
+    padding:2%;
+    list-style: none;
+}
+p{
+  width: 50%;
+  color: white;  
+  display: inline-block;
+  margin-left: 5%;
+}
+video {
+	background: black;
+	border: 3px solid #FFC800;
+	box-shadow: 2px -1px 5px #FFC800 , 2px -1px 10px #FFC800, 2px -1px 20px black ,
+    2px -1px 30px black, 2px -1px 35px rgb(92, 35, 21) , 2px -1px 40px rgb(87, 60, 11);
+	filter: drop-shadow(24px 12px 16px black);
+	float: right;
+	margin-right: 3%;
+    margin-top: 10%;
+    width:60%;
+}
+.box1 {
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 50%;
+    display: inline-block;
+	background: #030512;
+	border: solid 1px  #5afaca;
+	box-shadow: 2px -1px 5px #5afaca , 2px -1px 10px #5afaca;
+	height: 75px;
+    width: 75px;
+    transition: transform  6s;
+}
+.box2 {
+    border-radius: 50%;
+	background: #030512;
+	border: solid 1px  white;
+	box-shadow: 2px -1px 4px #5afaca , 2px -1px 8px #5afaca;
+	height: 50px;
+    margin-left: 17.5%;
+    margin-top: 17.5%;
+    width: 50px;
+    transition: transform 5s;
+}
+.box3 {
+    border-radius: 50%;
+	background: #030512;
+	border: solid 1px  #5afaca;
+	box-shadow: 2px -1px 2px #5afaca , 2px -1px 4px #5afaca;
+	height: 25px;
+    margin-left: 25%;
+    margin-top: 25%;
+    width: 25px;
+    transition: transform 4s;
+}
+.box4 {
+    border-radius: 50%;
+	background: #030512;
+	border: solid 1px  white;
+	box-shadow: 2px -1px 1px #5afaca , 2px -1px 2px #5afaca;
+	height: 12.5px;
+    margin-left: 25%;
+    margin-top: 25%;
+    width: 12.5px;
+    transition: transform 3s;
+}
+audio {
+    margin-left: 0%;
+    padding: 2%;
+    opacity: 0.4;
+    filter: invert();
+}
+
+li:hover .box1{
+    transform: rotate(3000deg);      
+}
+li:hover .box2{
+    transform: rotate(3000deg);      
+}
+li:hover .box3{
+    transform: rotate(3000deg);     
+}
+li:hover .box4{
+    transform: rotate(3000deg);      
+}
+

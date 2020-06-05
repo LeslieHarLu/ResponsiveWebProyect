@@ -8,7 +8,7 @@ paleta{
 
 footer {
     height: 100px;
-    background: #00212B;
+    background: #030512;
     float:left;
     width: 100%;
     text-align: center;
@@ -19,7 +19,7 @@ footer a img{
     display:inline-block;
     height: 50px;
 }
-
+ 
 #git{
     width:20%;
 }
@@ -49,6 +49,7 @@ footer li a img{
 
 footer img:hover {
     box-shadow: 0px 0px 6px #5afaca, 0px 0px 12px #5afaca, 0px 0px 14px #5afaca;
+    border-radius: 50%;
 }
 
 #git {
@@ -56,4 +57,9 @@ footer img:hover {
     height: auto;
     float: left;
     margin-left: 40%
+}
+ 
+#git img {
+    position: relative;
+    top: 12px;
 }

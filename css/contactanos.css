@@ -1,0 +1,12 @@
+body {
+    background: rgb(0,43,54);
+}
+
+h1 {
+    font-family: Mistral;
+    font-weight: bold;
+    font-size: 100px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 6px 2px 5px #5afaca;
+   }
